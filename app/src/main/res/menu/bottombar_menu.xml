@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottombar_menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Ana Sayfa" />
+    <item
+        android:id="@+id/bottombar_menu_team"
+        android:icon="@drawable/teamicon"
+        android:title="Takım" />
+
+    <item
+        android:id="@+id/bottombar_menu_fixture"
+        android:icon="@drawable/fixtureicon"
+        android:title="Fikstür" />
+    <item
+        android:id="@+id/bottombar_menu_table"
+        android:icon="@drawable/tableicon"
+        android:title="Puan Durumu" />
+    <item
+        android:id="@+id/bottombar_menu_anthem"
+        android:icon="@drawable/anthemicon"
+        android:title="Marşlar" />
+</menu>

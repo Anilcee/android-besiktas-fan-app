@@ -1,0 +1,79 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tarihceBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Kulübün Tarihçesi"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/besiktasLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tarihceBaslik"
+        android:src="@drawable/besiktaslogo" />
+
+    <TextView
+        android:id="@+id/tarihceMetin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/besiktasLogo"
+        android:layout_marginTop="16dp"
+        android:text="1903 yılında Bereket Jimnastik Kulübü (Asıl Çerkesçe ismi Bereketiqo olup bazı kurucuların mensup olduğu Çerkes sülalesinden gelmektedir, Türkçeye Bereket olarak çevrilmiştir.) adıyla kurulan Beşiktaş JK'nin, Ağustos 1911'de kurulan şubesidir. Maçlarını 2012-13 sezonuna kadar 32.086 kapasiteli İnönü Stadyumu'nda oynamıştır. 2012-13 sezonu sonunda kulüp, yeni stad yapım çalışmaları başlatmıştır. Armasında ay-yıldız taşıma izni verilen 28 Türk kulübünden biridir. Yurt içi ve yurt dışında gösterdiği performansı, kazandığı kupalar ve ilkleriyle Türkiye'nin en büyük futbol kulüplerinden birisidir." />
+
+    <TextView
+        android:id="@+id/galeriBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tarihceMetin"
+        android:text="Galeri"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/galeriBaslik"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/galeri2"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/galeri3"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/galeri4"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>
