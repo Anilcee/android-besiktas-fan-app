@@ -48,7 +48,7 @@ Android Beşiktaş Fan App, Beşiktaş futbol takımı hakkında çeşitli bilgi
 
 1. - **Projeyi Klonlayın:**
    ```sh
-   git clone https://github.com/kullanici_adi/android-besiktas-fan-app.git
+   git clone https://github.com/anilcee/android-besiktas-fan-app.git
    cd android-besiktas-fan-app
 
 2. - **Android Studio'yu Açın ve Projeyi İmport Edin:**
